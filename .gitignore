@@ -3,6 +3,7 @@ dbt_packages/
 logs/
 profiles.yml
 .env
+.envrc
 *.DS_Store
 dbt_internal_packages/
 .vscode/*
