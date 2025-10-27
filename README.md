@@ -2,7 +2,7 @@
 
 **Open-source, production-ready data warehouse for private equity, venture capital, and alternative investment funds.**
 
-The easiest way to get started with AMOS—just configure your data warehouse connection and run.
+The easiest way to get started with AMOS. Just configure your data warehouse connection and run.
 
 ## Why AMOS Starter
 
@@ -105,5 +105,5 @@ AMOS is open source and welcomes contributions. Report bugs, suggest features, a
 
 ## Related Projects
 
-- **[AMOS Core](../amos_core/README.md)** - Canonical dimensional model
-- **[AMOS Source Example](../amos_source_example/README.md)** - Source integration patterns
+- **[AMOS Core](../core)** - Canonical dimensional model
+- **[AMOS Source Example](../source-example)** - Source integration patterns
