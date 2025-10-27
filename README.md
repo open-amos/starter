@@ -75,7 +75,7 @@ For complete documentation, visit **[docs.amos.tech](https://docs.amos.tech)**
 ## Project Structure
 
 ```
-amos_runner/              # This orchestrator package
+amos_starter/              # This orchestrator package
 ├── dbt_project.yml      # Profile and configurations
 ├── packages.yml         # Package dependencies
 └── models/              # (empty - models in imported packages)
