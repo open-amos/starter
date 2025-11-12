@@ -1,6 +1,6 @@
 # AMOS
 
-[Overview](https://github.com/open-amos/) | **Starter** | [Core](https://github.com/open-amos/core) | [Source Example](https://github.com/open-amos/source-example) | [Dashboard](https://github.com/open-amos/dashboard-example)
+[Overview](https://github.com/open-amos/) | **Starter** | [Core](https://github.com/open-amos/core) | [Source Example](https://github.com/open-amos/source-example) | [Dashboard](https://github.com/open-amos/dashboard-example) 
 
 ---
 
@@ -43,3 +43,7 @@ AMOS is open source and welcomes contributions. Report bugs, suggest features, a
 - **[AMOS Source Example](../source-example)** - Source integration patterns
 - **[AMOS Dashboard](../dashboard-example)** - Example analytics and KPI dashboards built on AMOS Core
 
+## Licensing
+
+This subproject is part of the AMOS public preview. Licensing terms will be finalized before version 1.0.
+For now, the code is shared for evaluation and feedback only. Commercial or production use requires written permission from the maintainers.
