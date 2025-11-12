@@ -1,15 +1,14 @@
 # AMOS
 
-![image](https://img.shields.io/badge/version-0.1.0-blue?style=for-the-badge) ![image](https://img.shields.io/badge/status-proof--of--concept-yellow?style=for-the-badge) ![image](https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white)
-
----
 [Overview](https://github.com/open-amos/) | **Starter** | [Core](https://github.com/open-amos/core) | [Source Example](https://github.com/open-amos/source-example) | [Dashboard](https://github.com/open-amos/dashboard-example)
 
 ---
 
 # AMOS Starter
 
-AMOS Starter is a thin dbt project that orchestrates AMOS Core and AMOS Source Example to deliver an end-to-end pipeline—from source systems to analytics-ready data.
+AMOS Starter is a thin dbt project that coordinates AMOS Core and AMOS Source Example to deliver an end-to-end pipeline—from source systems to analytics-ready data.
+
+![image](https://img.shields.io/badge/version-0.1.0-blue?style=for-the-badge) ![image](https://img.shields.io/badge/status-proof--of--concept-yellow?style=for-the-badge) ![image](https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white)
 
 ## Quick Start
 
