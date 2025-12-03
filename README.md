@@ -1,4 +1,4 @@
-**AMOS** | [Core](https://github.com/open-amos/core) | [Source Example](https://github.com/open-amos/source-example) | [Dashboard](https://github.com/open-amos/dashboard-example)
+**AMOS** | [Core](https://github.com/open-amos/core) | [Reconciliation](https://github.com/open-amos/reconciliation) | [Dashboard](https://github.com/open-amos/dashboard) | [Source Example](https://github.com/open-amos/source-example)
 
 ---
 
@@ -50,9 +50,10 @@ This repository (`amos`) acts as the orchestrator. The logic is modularized acro
 
 | Repository | Purpose | Who is this for? |
 | :--- | :--- | :--- |
-| **[AMOS Core](https://github.com/open-amos/amos-core)** | **The Brain.** The dbt models and SQL logic that power the platform. | Data Engineers extending the logic. |
-| **[AMOS Dashboard](https://github.com/open-amos/amos-dashboard)** | **The UI.** A reference implementation of a BI dashboard for private markets. | Frontend devs & UI customizers. |
-| **[AMOS Source Example](https://github.com/open-amos/amos-source-example)** | **The Template.** Example data loaders and transformation patterns. | Engineers building new integrations. |
+| **[AMOS Core](https://github.com/open-amos/core)** | **The Brain.** The dbt models and SQL logic that power the platform. | Data Engineers extending the logic. |
+| **[AMOS Reconciliation](https://github.com/open-amos/reconciliation)** <br/>*(Coming Soon)* | **The Glue.** A UI for mapping entities (e.g., "Seq" = "Sequoia") and resolving data conflicts across systems. | Data Stewards & Ops Teams. |
+| **[AMOS Dashboard](https://github.com/open-amos/dashboard)** | **The UI.** A reference implementation of a BI dashboard for private markets. | Frontend devs & UI customizers. |
+| **[AMOS Source Example](https://github.com/open-amos/source-example)** | **The Template.** Example data loaders and transformation patterns. | Engineers building new integrations. |
 
 ## System Architecture
 
@@ -109,6 +110,8 @@ AMOS currently supports core private market workflows:
 
 AMOS is evolving toward broader coverage. Upcoming milestones:
 
+  - 🤝 **Visual Reconciliation:** A dedicated app to map entities and resolve data conflicts across systems without writing SQL.
+  - 🤖 **AI-Assisted Mapping:** "Human-in-the-loop" suggestions for mapping messy entity names (e.g., matching "Google Inc" to "Alphabet").
   - 🟢 **Impact & ESG:** Standardized models for impact measurement.
   - 🔌 **Rest API:** Public API for programmatic access to metrics.
   - 🤖 **MCP Server:** Native integration for AI assistants (Claude/ChatGPT) to query your data.
@@ -116,7 +119,7 @@ AMOS is evolving toward broader coverage. Upcoming milestones:
 
 ## Extensibility
 
-AMOS is built to be extended, not forked.
+AMOS is built to be extended:
 
   * **Connect real data:** Swap the `Source Example` for your own custom dbt models connecting to raw data.
   * **Extend the logic:** Import `amos-core` as a package and build your own marts on top of it.
