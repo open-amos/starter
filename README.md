@@ -37,7 +37,7 @@ docker-compose up -d
 
 If you prefer to run this in your own environment without Docker:
 
-1.  Install [dbt-core and dbt-postgres](https://docs.getdbt.com/docs/get-started-dbt) or any other adapter. AMOS works with any database engine supported by dbt, including PostgreSQL, MySQL, Microsoft SQL Server, Snowflake, Google BigQuery, Amazon Redshift, Databricks, and more.
+1.  Install [dbt-core and dbt-postgres](https://docs.getdbt.com/docs/get-started-dbt) or any other adapter. AMOS works with any database engine supported by dbt, including DuckDB, PostgreSQL, MySQL, Microsoft SQL Server, Snowflake, Google BigQuery, Amazon Redshift, Databricks, and more.
 2.  Configure your database connections in `profiles.yml`
 3.  Run `dbt deps` to install dependencies (amos-core and amos-source-example)
 4.  Run `dbt seed` to load example data
