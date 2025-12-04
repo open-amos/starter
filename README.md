@@ -89,11 +89,11 @@ graph TD
     TRANSPORT[<b>🚚 Data Transport</b><br/><i>Fivetran, Airbyte, Uploads</i>]
 
     %% --- THE WAREHOUSE ---
-    subgraph User_Warehouse_Infra [2. Your Data Warehouse Infrastructure <br>Postgres / Snowflake / BigQuery]
+    subgraph User_Warehouse_Infra [2. Your Data Warehouse Infrastructure <br>SQL Server / Postgres / Snowflake / BigQuery]
         direction TB
 
         %% Landing Zone
-        RAW[<b>🛢️ Raw Database / Landing Zone</b><br/><i>Data lands here as-is</i>]
+        RAW[<b>🛢️ Raw Database / Landing Zone</b><br/><i>Data lands here as-is.<br>AMOS Source Example provides example seed data.</i>]
 
         %% --- THE AMOS PRODUCT ---
         subgraph AMOS_Stack [✨ The AMOS Stack]
@@ -153,7 +153,7 @@ graph TD
 ```
 ## How It Works
 
-AMOS acts as the open-source operating system that runs on top of your existing data warehouse (Postgres, Snowflake, or BigQuery). It turns raw, disconnected files into a programmable business asset.
+AMOS acts as the open-source operating system that runs on top of your existing data warehouse (SQL Server, Postgres, Snowflake, BigQuery, or other databases). It turns raw, disconnected files into a programmable business asset.
 
   - 🚚 Transport (You bring the data): Use your existing tools (Fivetran, Airbyte) or simple file uploads to drop raw data into your warehouse's "Landing Zone."
   - 🧩 Ingest & Repair: AMOS picks up that raw data. It standardizes column names and uses a reconciliation layer to resolve entity conflicts (e.g., mapping "Seq Capital" in your CRM to "Sequoia" in your Fund Admin system)
