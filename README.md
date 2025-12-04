@@ -153,7 +153,7 @@ graph TD
 ```
 ## How It Works
 
-AMOS acts as the open-source operating system that runs on top of your existing data warehouse (SQL Server, Postgres, Snowflake, BigQuery, or other databases). It turns raw, disconnected files into a programmable business asset.
+AMOS acts as the open-source operating system that runs on top of your existing data warehouse. It connects your fragmented data exports and transforms them into a single, unified source of truth.
 
   - 🚚 Transport (You bring the data): Use your existing tools (Fivetran, Airbyte) or simple file uploads to drop raw data into your warehouse's "Landing Zone."
   - 🧩 Ingest & Repair: AMOS picks up that raw data. It standardizes column names and uses a reconciliation layer to resolve entity conflicts (e.g., mapping "Seq Capital" in your CRM to "Sequoia" in your Fund Admin system)
